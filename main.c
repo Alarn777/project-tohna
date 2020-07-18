@@ -1,6 +1,5 @@
-//#include <stdio.h>
 #include "fileHandler.h"
-
+#include "divisor.h"
 
 
 int main() {
@@ -11,9 +10,11 @@ int main() {
 
     int a = readFile("graph.in", myGraph);
     assert(a == 0);
+    if(a)
+        return 1;
+    else
+        divide_in_two(myGraph);
 
-//    printf("%d\n",myGraph->number_of_nodes);
-
-    printf("LOL %d",myGraph->data[18][1]);
+    printf("Exiting...\n");
     return 0;
 }
