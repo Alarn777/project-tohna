@@ -14,11 +14,10 @@ typedef struct Graph {
 
 
 
-int readFile(char *fineName, struct Graph *graph);
+int readFile(char *fileName, struct Graph *graph);
 
 
-int writeToFile(char* fineName);
-
+int writeToFile(char* fileName);
 
 
 #endif //PROJECT_TOHNA_FILEHANDLER_H

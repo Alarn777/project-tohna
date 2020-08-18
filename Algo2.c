@@ -1,4 +1,4 @@
-#include "divisor.h"
+#include "Algo2.h"
 
 int divide_in_two(Graph *graph){
 

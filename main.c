@@ -1,5 +1,5 @@
 #include "fileHandler.h"
-#include "divisor.h"
+#include "Algo2.h"
 //start
 
 int main() {
